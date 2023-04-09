@@ -25,10 +25,10 @@ int touchedNum = 0; // which pad is touched,0 means none, only 1 pad to touch at
 Adafruit_SH1106_ESP32 display(OLED_SDA, OLED_SCL);
 
 // Network
-const char *ssid = "CMCC-GTA6";
-const char *password = "31029033";
+const char *ssid = "ssid";
+const char *password = "password";
 HTTPClient http;
-String duet_url = "http://172.17.1.251";
+String duet_url = "http://192.168.1.1";
 
 // ArduinoJson
 DynamicJsonDocument doc(4096); // Json doc
