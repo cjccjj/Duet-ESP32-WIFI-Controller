@@ -26,7 +26,7 @@ To run a command or gcode, press on one of the six touchpads.
 Thanks to Duet firmware which runs everything as gcode or a g file, it is very easy to just call the remote file to run, using the M98 command as above.
 And so, it is very easy to add or change a menu item in realtime, just do it online from a PC with DWC.
 
-Arduino libraries used: ArduinoJson, ADAfruit GFX, ezButton
+Arduino libraries used: ArduinoJson, ADAfruit GFX, Adafruit_SH1106_ESP32, ezButton
 
 
 
