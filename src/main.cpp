@@ -419,9 +419,8 @@ void loop()
   button_B.loop();
   button_Update();
   touch_Update();
-  if (WiFi.status() != WL_CONNECTED)
+  if (WiFi.status() == WL_CONNECTED)
   {
-    currentMode = 0;
+    info_Show(currentMode);
   }
-  info_Show(currentMode);
 }
