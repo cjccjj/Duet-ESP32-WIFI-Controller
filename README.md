@@ -1,7 +1,7 @@
 # Duet-ESP32-WIFI-Controller
 A simple WIFI Controller to remotely control 3D printer running a Duet control board
 
-This is a draft code that tested working on my spefic ESP32 board and 3D printer set up. 
+This is a draft code that tested working on my specific ESP32 board and 3D printer set up. 
 
 The controller has a small display, 2 buttons and 6 touchpads.
 There are some pictures of it in the Pictures folder.
